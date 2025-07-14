@@ -1,0 +1,60 @@
+
+QWidget {
+    background-color: rgba(94, 95, 96, 255); /* 背景颜色 */
+    border: 1px solid rgba(94, 95, 96, 255);    /* 边框样式 */
+    padding: 0px;             /* 内边距 */
+    margin: 0px;              /* 外边距 */
+}
+
+QTextEdit {
+    background-color: rgba(46, 47, 48, 255); /* 背景颜色 */
+    color: white;           /* 文本颜色 */
+    font: 16px "Microsoft YaHei";        /* 字体大小和字体 */
+    border: 1px solid rgba(76, 77, 78, 255);    /* 边框样式 */
+    border-radius: 4px;        /* 圆角半径 */
+    padding: 1px;              /* 内边距 */
+}
+
+/* 选中状态的样式 */
+QTextEdit {
+    selection-background-color: rgba(46, 47, 48, 127); /* 选中文本的背景颜色 */
+    selection-color: white;              /* 选中文本的颜色 */
+}
+
+/* 定制滚动条样式 */
+QTextEdit QScrollBar {
+    background: rgba(46, 47, 48, 255);  /* 滚动条背景 */
+    width: 7px;                         /* 滚动条宽度 */
+}
+
+QTextEdit QScrollBar::handle {
+    background: rgba(82, 82, 82, 255);   /* 滚动条手柄颜色 */
+    border-radius: 4px;                  /* 滚动条手柄圆角 */
+}
+
+QTextEdit QScrollBar::add-line, QTextEdit QScrollBar::sub-line {
+    background: none;                    /* 隐藏滚动条的上下箭头 */
+}
+
+QPushButton {
+    background-color: rgba(64, 65, 66, 255); /* 背景颜色 */
+    color: white;             /* 文本颜色 */
+    font-family: "Microsoft YaHei";
+    font-size: 14px;           /* 字体大小和样式 */
+    border: 2px solid rgba(64, 65, 66, 255);/* 边框样式 */
+    border-radius: 4px;        /* 圆角半径 */
+    padding: 1px 1px;         /*内边距 */
+    margin: 1px;               /*外边距 */
+}
+
+/* 鼠标悬停时的样式 */
+QPushButton:hover {
+    background-color: rgba(64, 65, 66, 127); /* 悬停时背景颜色 */
+    border: 2px solid rgba(64, 65, 66, 255); /* 悬停时边框颜色 */
+}
+
+/* 按钮按下时的样式 */
+QPushButton:pressed {
+    background-color: rgba(64, 65, 66, 64); /* 按下时背景颜色 */
+    border: 2px solid rgba(64, 65, 66, 64); /* 按下时边框颜色 */
+}

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/stylesheet">
+        <file>global_style_sheet_white.qss</file>
+        <file>global_style_sheet_dark.qss</file>
+    </qresource>
+</RCC>
